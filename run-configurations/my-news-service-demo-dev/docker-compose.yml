@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  my-news-service-01-dev:
+  my-news-service-demo-dev:
     image: ${CONTAINER_REGISTRY_URL}/${CONTAINER_IMAGE_REPOSITORY}:${CONTAINER_IMAGE_TAG}
     ports:
       - ${HOST_PORT_PREFIX}55:5555
